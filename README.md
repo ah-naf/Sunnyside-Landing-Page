@@ -1,6 +1,6 @@
 # Frontend Mentor - Sunnyside agency landing page
 
-## [Preview Link](https://rawcdn.githack.com/ah-naf/Sunnyside-Landing-Page/59f47f3343de38ef12503b3b1dc725f0e5e76673/index.html)
+## [Preview Link](https://thirsty-easley-e63e6a.netlify.app/)
 
 ![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
 
