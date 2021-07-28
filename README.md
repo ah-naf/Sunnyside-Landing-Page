@@ -1,8 +1,9 @@
 # Frontend Mentor - Sunnyside agency landing page
 
+## [LINK](https://rawcdn.githack.com/ah-naf/Sunnyside-Landing-Page/59f47f3343de38ef12503b3b1dc725f0e5e76673/index.html)
+
 ![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
 
-## [LINK](https://rawcdn.githack.com/ah-naf/Sunnyside-Landing-Page/59f47f3343de38ef12503b3b1dc725f0e5e76673/index.html)
 
 ## Welcome! 👋
 
