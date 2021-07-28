@@ -2,6 +2,8 @@
 
 ![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
 
+## [LINK](https://rawcdn.githack.com/ah-naf/Sunnyside-Landing-Page/59f47f3343de38ef12503b3b1dc725f0e5e76673/index.html)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
