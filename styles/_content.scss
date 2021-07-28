@@ -1,0 +1,218 @@
+.content {
+    min-width: 300px;
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        .order1 {
+            order: 2;
+        }
+        .order2 {
+            order: 1;
+        }
+        .col-2 {
+            flex-basis: 50%;
+            display: flex;
+            text-align: left;
+            .col-content {
+                width: 500px;
+                margin: auto;
+                // overflow: hidden;
+                h1 {
+                    font-family: $fraunces;
+                    margin-bottom: 2rem;
+                    font-size: 2.6rem;
+                    font-weight: 800;
+                }
+                p {
+                    margin-bottom: 2rem;
+                    font-size: 0.9rem;
+                    line-height: 1.4rem;
+                    font-family: $montserrat;
+                    font-weight: 400;
+                }
+                .first-learn-more {
+                    font-family: $barlow;
+                    text-decoration: none;
+                    color: black;
+                    position: relative;
+                    overflow: hidden;
+                    &::before {
+                        content: "";
+                        width: 100%;
+                        height: 3px;
+                        background: yellow;
+                        position: absolute;
+                        top: -8px;
+                        left: 0px;
+                        transition: 1s;
+                        opacity: 0;
+                    }
+                    &::after {
+                        content: "";
+                        width: 100%;
+                        height: 3px;
+                        background: yellow;
+                        position: absolute;
+                        bottom: -8px;
+                        left: 0px;
+                        transition: 1s;
+                    }
+                    .first-span {
+                        width: 3px;
+                        height: 100%;
+                        background: yellow;
+                        position: absolute;
+                        top: 0px;
+                        left: -8px;
+                        opacity: 0;
+                        transition: 1s;
+                    }
+                    .last-span {
+                        width: 3px;
+                        height: 100%;
+                        background: yellow;
+                        position: absolute;
+                        top: 0px;
+                        right: -8px;
+                        opacity: 0;
+                        transition: 1s;
+                    }
+                    &:hover {
+                        &::before,
+                        &::after,
+                        .first-span,
+                        .last-span {
+                            opacity: 1;
+                        }
+                    }
+                }
+                .second-learn-more {
+                    font-family: $barlow;
+                    text-decoration: none;
+                    color: black;
+                    position: relative;
+                    overflow: hidden;
+                    &::before {
+                        content: "";
+                        width: 100%;
+                        height: 3px;
+                        background: $soft-red;
+                        position: absolute;
+                        top: -8px;
+                        left: 0px;
+                        transition: 1s;
+                        opacity: 0;
+                    }
+                    &::after {
+                        content: "";
+                        width: 100%;
+                        height: 3px;
+                        background: $soft-red;
+                        position: absolute;
+                        bottom: -8px;
+                        left: 0px;
+                        transition: 1s;
+                    }
+                    .first-span {
+                        width: 3px;
+                        height: 100%;
+                        background: $soft-red;
+                        position: absolute;
+                        top: 0px;
+                        left: -8px;
+                        opacity: 0;
+                        transition: 1s;
+                    }
+                    .last-span {
+                        width: 3px;
+                        height: 100%;
+                        background: $soft-red;
+                        position: absolute;
+                        top: 0px;
+                        right: -8px;
+                        opacity: 0;
+                        transition: 1s;
+                    }
+                    &:hover {
+                        &::before,
+                        &::after,
+                        .first-span,
+                        .last-span {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .content {
+        .row {
+            .col-2 {
+                .col-content {
+                    text-align: center;
+                    h1 {
+                        font-size: 1.7rem;
+                    }
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .content {
+        .row {
+            .order1 {
+                order: 1;
+            }
+            .order2 {
+                order: 2;
+            }
+            .col-2 {
+                flex-basis: 100%;
+                height: 80vh;
+                .col-content {
+                    text-align: center;
+                    width: 650px;
+                    h1 {
+                        font-size: 3rem;
+                    }
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:676px) {
+    .content {
+        .row {
+            .col-2 {
+                flex-basis: 100%;
+                height: 80vh;
+                .col-content {
+                    text-align: center;
+                    width: 350px;
+                    h1 {
+                        font-size: 1.8rem;
+                    }
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

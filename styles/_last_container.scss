@@ -1,0 +1,91 @@
+.last-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    .box {
+        background-image: url('../images/desktop/image-graphic-design.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-basis: 50%;
+        .texts {
+            width: 500px;
+            margin-bottom: 50px;
+            h1 {
+                font-family: $fraunces;
+                margin-bottom: 2rem;
+                font-size: 2.6rem;
+                color: rgba($color: #000, $alpha: 0.7)
+            }
+            p {
+                margin-bottom: 2rem;
+                font-size: 0.9rem;
+                line-height: 1.4rem;
+                font-family: $montserrat;
+                font-weight: 300;
+            }
+        }
+    }
+    .container-content2 {
+        background-image: url('../images/desktop/image-photography.jpg');
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .last-container {
+        .box {
+            .texts {
+                h1 {
+                    font-size: 2.2rem;
+                    margin-bottom: 1.5rem;
+                }
+                p {
+                    width: 350px;
+                    margin: auto;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .last-container {
+        .box {
+            flex-basis: 100%;
+            .texts {
+                margin-bottom: 80px;
+                h1 {
+                    font-size: 2.5rem;
+                }
+                p {
+                    font-size: 1.1rem;
+                    width: fit-content;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:650px) {
+    .last-container {
+        .box {
+            flex-basis: 100%;
+            .texts {
+                margin-bottom: 30px;
+                width: 360px;
+                h1 {
+                    font-size: 2.2rem;
+                }
+                p {
+                    font-size: 0.8rem;
+                    width: fit-content;
+                }
+            }
+        }
+    }
+}
